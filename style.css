@@ -1,0 +1,92 @@
+
+  #navbar{
+    gap:5%;
+    display:flex;
+  }#container1{
+    font-size: larger;
+    display:flex;
+    
+  }#nav{
+    color: black;
+  }.image{
+    float:right;
+  }#clothes {
+    display:flex;
+    float:left;
+    gap:5%;
+  }#design{
+ display:flex;
+ float:right;
+ justify-content: center;
+  }.shoped{
+    color: black;
+  }#products{
+display:flex;
+gap:5%;
+  }#imagescollection{
+    display:flex;
+    gap:5%;
+    float:right;
+
+  }.shoes{
+    float:left;
+  }#collection2{
+    float:right;
+  }#allcollection{
+
+
+  }#image{
+    display:flex;
+  }#images003{
+    gap:10%;
+
+  }#container8{
+    text-align: center;
+  }#button{
+    color: black;
+
+  }@media all and(min-width:500px)and(max-width:1024){
+    #navbar{
+        gap:5px;
+        display:flex;
+        display:wrap;
+      }#container1{
+        font-size:medium;
+        display:flex;
+        
+      }#nav{
+        color: blue;
+        
+      }#clothes {
+        display:flex;
+        float:left;
+        gap:5px;
+        display:wrap;
+      }#design{
+     display:flex;
+     float:right;
+     justify-content: center;
+      }.shoped{
+        color: black;
+      }#products{
+    display:flex;
+    display:wrap;
+    gap:5px;
+      }#imagescollection{
+        display:flex;
+        display:wrap;
+  }
+}@media(min-width:480px){
+    navbar{
+        gap:5px;
+        display:flex; 
+        display:wrap;
+        background-color: blue;
+}
+
+}
+    
+  
+
+    
+    
